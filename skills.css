@@ -1,0 +1,135 @@
+/*--/tabs --*/
+
+.tech-btm h5 {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	font-weight: 600;
+}
+
+.menu-img-info h5 {
+	font-size: 12px;
+	color: #7b7d80;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	line-height: 1.4em;
+}
+
+p.sub-meta {
+	color: #1cbbb4;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.text-info-sec p {
+	color: #666;
+	font-size: 17px;
+}
+
+.text-info-sec h3 {
+    font-size: 2.5em;
+    color: #42c0d9;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+.text-info-sec h5 {
+	font-size: 1.4em;
+	color: #333;
+	text-shadow: 0 1px 2px rgba(18, 18, 19, 0.13);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.text-info-sec i {
+    color: #333;
+    font-size: 50px;
+}
+.card {
+    border: none;
+}
+.tab-main img {
+    width: 65px;
+}
+.tab-main .card img {
+    width: 80px;
+}
+.middile-inner-con h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #333;
+}
+.tab-main section {
+    display: none;
+    padding: 2em 0 0;
+    border-top: 1px solid #abc;
+}
+
+.tab-main input {
+    display: none;
+}
+
+.tab-main label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    width: 32.8%;
+    text-align: left;
+    color: #1e272e;
+    padding: 20px 0 20px;
+    letter-spacing: 1px;
+    background: bottom;
+    font-size: 15px;
+    border-left: 4px solid transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tab-main span {
+    margin-right: 0.5em;
+}
+
+.tab-main label:before {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+    opacity: 0;
+}
+
+.tab-main label:hover {
+    cursor: pointer;
+}
+
+.tab-main input:checked + label {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-bottom: 2px solid;
+    background: #42c0d9;
+    font-size: 15px;
+    padding: 20px 0 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tab-main #tab1:checked ~ #content1,
+.tab-main #tab2:checked ~ #content2,
+.tab-main #tab3:checked ~ #content3,
+.tab-main #tab4:checked ~ #content4 {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .tab-main label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tab-main label {
+        padding: 15px;
+    }
+}
+.nor{
+    font-size: 16px;
+    color:#000;
+}
+
+/*--//tabs--*/
